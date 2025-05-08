@@ -1,0 +1,54 @@
+.profile-pic {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about { 
+    background-color: var(--black);
+    box-shadow: 0px 5px 10px rgb(250, 249, 249);
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.about-content {
+    color: aliceblue;
+    width: 1200px;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.text-apropos {
+    color: aliceblue;
+    margin-right: 10cm;
+}
+
+.content-text {
+    width: 800px;
+    height: 400px;
+    padding: 20px;
+}
+
+
+.aproposProfile ul {
+    list-style: none;
+    padding: 0;
+}
+
+.aproposProfile li {
+    margin: 10px 0px 0px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.aproposProfile li::before {
+    content: "><=>< "; 
+    font-size: 1.2rem;
+    color: var(--dark-orange);
+    margin-right: 10px;
+}
